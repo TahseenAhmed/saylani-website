@@ -1,0 +1,45 @@
+.container{
+    width: auto;
+
+}
+.top-header{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #316DC3 ;
+}
+.top-header-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.top-header-icons ul{
+    display: block;
+    list-style: none;
+}
+.top-header-icons li{
+    float: left;
+    margin-left: 10px;
+}
+.top-header-icons a{
+    text-decoration: none;
+
+}
+.header-icon{
+    height: 32px;
+    width: 32px;
+    background-color: #316DC3;
+}
+.top-header-text{
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+.top-header-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-button{
+    margin-right: 10px;
+}
