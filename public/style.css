@@ -1,0 +1,71 @@
+.container{
+    width: auto;
+
+}
+.top-header{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #316DC3;
+    margin: -8px -8px 0px -8px;
+    padding: 9px 0px 11px 0px;
+}
+.top-header-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.top-header-icons ul{
+    display: block;
+    padding-left: 0px;
+    list-style: none;
+}
+.top-header-icons li{
+    float: left;
+    margin-left: 10px;
+}
+.top-header-icons a{
+    text-decoration: none;
+
+}
+.header-icon{
+    height: 24px;
+    width: 24px;
+    background-color: #316DC3;
+}
+.top-header-text{
+    color: whitesmoke;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.top-header-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.fa-facebook,.fa-twitter,.fa-instagram,.fa-youtube,.fa-whatsapp{
+    color: #ffffff;
+    width: 30px;
+}   
+
+.header-button{
+    margin: 0px 2px 0px 2px;
+    padding: 5px 8px 5px 8px;
+}
+
+
+@media screen and (max-width: 990px){
+    .top-header-icons, .top-header-text{
+        width: 100%;
+    }
+    .top-header-buttons{
+        width: 100%;
+    }
+    
+}
